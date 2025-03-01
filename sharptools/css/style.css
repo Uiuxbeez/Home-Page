@@ -9799,6 +9799,98 @@ section.contact-form-section.style-three {
 }
 
 /* other theme style */
+.world-map {
+    position: relative;
+    width: 46.82291667vw;
+    float: right;
+}
+
+.world-map img {
+    width: 100%;
+}
+
+.global-content {
+    padding-left: 25px;
+}
+
+.we-are-global {
+    margin: var(--box-space) 0;
+}
+
+.world-map>span {
+    position: absolute;
+    width: 10px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-flex;
+    background-color: #FF5E15;
+    animation: waveBtn 2s infinite;
+}
+
+@keyframes waveBtn {
+    0% {
+        box-shadow: 0 0 0 0 rgb(255 94 21 / .9375);
+    }
+
+    50% {
+        box-shadow: 0 0 0 5px transparent;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 transparent;
+    }
+}
+
+.world-map>span.alaska {
+    top: 15%;
+    left: 9%;
+}
+
+.world-map>span.usa {
+    top: 42%;
+    left: 16%;
+}
+
+.world-map>span.brazil {
+    top: 73%;
+    left: 30%;
+}
+
+.world-map>span.greenland {
+    top: 12%;
+    left: 38%;
+}
+
+.world-map>span.africa {
+    top: 59%;
+    left: 53%;
+}
+
+.world-map>span.russia {
+    top: 26%;
+    left: 72.5%;
+}
+
+.world-map>span.india {
+    top: 53.5%;
+    left: 71.625%;
+}
+
+.world-map>span.china {
+    top: 39.5%;
+    left: 79.625%;
+}
+
+.world-map>span.russia-2 {
+    top: 12.5%;
+    left: 89.75%;
+}
+
+.world-map>span.australia {
+    top: 80%;
+    left: 88.75%;
+}
 
 .company-timeline {
     display: flex;
