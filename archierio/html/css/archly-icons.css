@@ -1,0 +1,216 @@
+@font-face {
+  font-family: 'archly-icons';
+  src:  url('../fonts/archly-icons.eot');
+  src:  url('../fonts/archly-icons.eot#iefix') format('embedded-opentype'),
+    url('../fonts/archly-icons.ttf') format('truetype'),
+    url('../fonts/archly-icons.woff') format('woff'),
+    url('../images/archly-icons.svg#archly-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="tji-"], [class*=" tji-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'archly-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tji-d-buildings:before {
+  content: "\e900";
+}
+.tji-address:before {
+  content: "\e901";
+}
+.tji-apartment:before {
+  content: "\e902";
+}
+.tji-architect:before {
+  content: "\e903";
+}
+.tji-architectural:before {
+  content: "\e904";
+}
+.tji-avatar:before {
+  content: "\e905";
+}
+.tji-best-seller:before {
+  content: "\e906";
+}
+.tji-brick-wall:before {
+  content: "\e907";
+}
+.tji-brickwall:before {
+  content: "\e908";
+}
+.tji-building-1:before {
+  content: "\e909";
+}
+.tji-building-2:before {
+  content: "\e90a";
+}
+.tji-building-3:before {
+  content: "\e90b";
+}
+.tji-building:before {
+  content: "\e90c";
+}
+.tji-buildings-1:before {
+  content: "\e90d";
+}
+.tji-buildings:before {
+  content: "\e90e";
+}
+.tji-businessman:before {
+  content: "\e90f";
+}
+.tji-commercial-building:before {
+  content: "\e910";
+}
+.tji-continuous-improvement:before {
+  content: "\e911";
+}
+.tji-creative-thinking:before {
+  content: "\e912";
+}
+.tji-creativity:before {
+  content: "\e913";
+}
+.tji-design:before {
+  content: "\e914";
+}
+.tji-development:before {
+  content: "\e915";
+}
+.tji-downloading:before {
+  content: "\e916";
+}
+.tji-drawing-compass:before {
+  content: "\e917";
+}
+.tji-employee:before {
+  content: "\e918";
+}
+.tji-garage-house:before {
+  content: "\e919";
+}
+.tji-high-quality:before {
+  content: "\e91a";
+}
+.tji-home-1:before {
+  content: "\e91b";
+}
+.tji-home-2:before {
+  content: "\e91c";
+}
+.tji-home-renovation:before {
+  content: "\e91d";
+}
+.tji-home:before {
+  content: "\e91e";
+}
+.tji-house-1:before {
+  content: "\e91f";
+}
+.tji-house-2:before {
+  content: "\e920";
+}
+.tji-house-design:before {
+  content: "\e921";
+}
+.tji-house:before {
+  content: "\e922";
+}
+.tji-idea:before {
+  content: "\e923";
+}
+.tji-improve:before {
+  content: "\e924";
+}
+.tji-maintenance:before {
+  content: "\e925";
+}
+.tji-message:before {
+  content: "\e926";
+}
+.tji-office-building:before {
+  content: "\e927";
+}
+.tji-old-building:before {
+  content: "\e928";
+}
+.tji-pdf:before {
+  content: "\e929";
+}
+.tji-phone-call:before {
+  content: "\e92a";
+}
+.tji-plan:before {
+  content: "\e92b";
+}
+.tji-professional-development:before {
+  content: "\e92c";
+}
+.tji-puzzle:before {
+  content: "\e92d";
+}
+.tji-quote-right:before {
+  content: "\e92e";
+}
+.tji-quote:before {
+  content: "\e92f";
+}
+.tji-reliability:before {
+  content: "\e930";
+}
+.tji-remodeling:before {
+  content: "\e931";
+}
+.tji-renovation:before {
+  content: "\e932";
+}
+.tji-residence:before {
+  content: "\e933";
+}
+.tji-residential-1:before {
+  content: "\e934";
+}
+.tji-residential:before {
+  content: "\e935";
+}
+.tji-service:before {
+  content: "\e936";
+}
+.tji-shop:before {
+  content: "\e937";
+}
+.tji-store-1:before {
+  content: "\e938";
+}
+.tji-store:before {
+  content: "\e939";
+}
+.tji-suitcase:before {
+  content: "\e93a";
+}
+.tji-supermarket:before {
+  content: "\e93b";
+}
+.tji-telephone:before {
+  content: "\e93c";
+}
+.tji-urban-planning:before {
+  content: "\e93d";
+}
+.tji-worker:before {
+  content: "\e93e";
+}
