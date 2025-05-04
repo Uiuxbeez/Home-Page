@@ -84,7 +84,7 @@
   --tj-color-theme-primary-3: #7b6c63;
   --tj-color-theme-secondary: #3c3e45;
   --tj-color-theme-bg: #32343b;
-  --tj-color-theme-bg-2: #303037;
+  --tj-color-theme-bg-2: rgb(48, 48, 55);
   --tj-color-grey-1: #d5d0d0;
   --tj-color-grey-2: #32343b;
   --tj-color-grey-3: #d9d0d0;
@@ -4204,10 +4204,20 @@ START: Theme Breadcrumb CSS
 ----------------------------------------*/
 .breadcrumb-wrapper {
   padding-top: 85px;
-  background-color: var(--tj-color-theme-bg-2);
+  background: url("../images/h1-slider-img-1-1.jpg") no-repeat top center;
+  /* background-color: var(--tj-color-theme-bg-2); */
   position: relative;
   z-index: 1;
   overflow: hidden;
+}
+.breadcrumb-wrapper:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(48, 48, 55,0.86);
 }
 .breadcrumb-wrapper .breadcrumb-bg-shapes {
   position: absolute;
