@@ -4007,7 +4007,7 @@ START: Theme Breadcrumb CSS
 ----------------------------------------*/
 .breadcrumb-wrapper {
   padding-top: 85px;
-  padding-bottom: 120px;
+  padding-bottom: 0;
   position: relative;
   z-index: 2;
   overflow: hidden;
@@ -4037,7 +4037,7 @@ START: Theme Breadcrumb CSS
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .breadcrumb-wrapper {
     padding-top: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
   }
 }
 
