@@ -1,5 +1,5 @@
 /*
-Author       : Dreamguys
+Author       : UIUXBeez
 Template Name: Dreams-Estate - Bootstrap Template
 Version      : 1.0
 */
