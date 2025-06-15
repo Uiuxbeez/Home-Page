@@ -298,7 +298,7 @@
    // Brand Slider Js
    if ($(".tj-brand-slider").length > 0) {
       var brand = new Swiper(".tj-brand-slider", {
-         slidesPerView: 5,
+         slidesPerView: 4,
          spaceBetween: 40,
          loop: false,
          breakpoints: {
@@ -317,10 +317,10 @@
                spaceBetween: 30,
             },
             992: {
-               slidesPerView: 5,
+               slidesPerView: 4,
             },
             1024: {
-               slidesPerView: 5,
+               slidesPerView: 4,
             },
          },
       });
@@ -329,7 +329,7 @@
    // Brand Slider Js
    if ($(".tj-brand-slider2").length > 0) {
       var brand = new Swiper(".tj-brand-slider2", {
-         slidesPerView: 5,
+         slidesPerView: 4,
          loop: false,
          breakpoints: {
             320: {
@@ -345,10 +345,10 @@
                slidesPerView: 4,
             },
             992: {
-               slidesPerView: 5,
+               slidesPerView: 4,
             },
             1024: {
-               slidesPerView: 5,
+               slidesPerView: 4,
             },
          },
       });

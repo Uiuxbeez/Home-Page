@@ -1505,6 +1505,7 @@ START: Header CSS
 .site-logo .logo {
   display: inline-block;
   width: 100%;
+  max-width: 104px;
 }
 .site-logo .logo img {
   width: 100%;
@@ -7433,7 +7434,7 @@ START: Roll CSS
   z-index: 3;
   overflow: hidden;
   background-color: var(--tj-color-theme-bg);
-  padding-bottom: 120px;
+  padding-bottom: 20px;
 }
 .tj-roll-section.style-2 {
   padding-bottom: 0;
@@ -7490,31 +7491,32 @@ START: Roll CSS
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
+  white-space: nowrap;
   line-height: 1.2;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .slide-roll .roll-box .roll-item .text {
-    font-size: 120px;
+    font-size: 50px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slide-roll .roll-box .roll-item .text {
-    font-size: 100px;
+    font-size: 35px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slide-roll .roll-box .roll-item .text {
-    font-size: 80px;
+    font-size: 30px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .slide-roll .roll-box .roll-item .text {
-    font-size: 65px;
+    font-size: 25px;
   }
 }
 @media (max-width: 575px) {
   .slide-roll .roll-box .roll-item .text {
-    font-size: 55px;
+    font-size: 20px;
   }
 }
 
@@ -7539,6 +7541,7 @@ START: Roll CSS
   font-family: var(--tj-ff-heading);
   color: var(--tj-color-text-body-3);
   text-align: center;
+  white-space: nowrap;
 }
 .slide-roll-two .roll-box .roll-item .text-1 {
   color: var(--tj-color-common-white);
@@ -12468,7 +12471,11 @@ START: Hero CSS
   }
 }
 .hero-bottom-content .tj-brand-slider2 {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
+}
+.link-style {
+  color: #b99a80;
+  text-decoration: underline;
 }
 .hero-bottom-content .tj-brand-slider2 .brand-item {
   display: -webkit-box;
@@ -12485,6 +12492,9 @@ START: Hero CSS
 }
 .hero-bottom-content .tj-brand-slider2 .brand-item a {
   display: inline-block;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 .hero_wrapper {
