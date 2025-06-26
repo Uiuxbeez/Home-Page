@@ -330,7 +330,8 @@
    if ($(".tj-brand-slider2").length > 0) {
       var brand = new Swiper(".tj-brand-slider2", {
          slidesPerView: 4,
-         loop: false,
+         loop: true,
+         autoplay: true,
          breakpoints: {
             320: {
                slidesPerView: 2,
@@ -398,6 +399,7 @@
          loop: true,
          margin: 50,
          dots: true,
+         autoplay: true,
          responsive: {
             320: {
                items: 1,

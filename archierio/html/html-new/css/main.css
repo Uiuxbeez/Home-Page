@@ -12323,7 +12323,7 @@ START: Hero CSS
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-bottom-content .hero-wrapper .video-wrapper .hero-video .watch_video {
-    padding: 25px 45px 110px;
+    padding: 25px 45px 25px;
     max-width: 240px;
     min-height: 585px;
   }
@@ -12355,7 +12355,7 @@ START: Hero CSS
   z-index: 2;
   max-width: 350px;
   width: 100%;
-  top: -120px;
+  top: -210px;
   left: 60px;
   border-radius: 50%;
   z-index: 2;
@@ -12491,12 +12491,28 @@ START: Hero CSS
   z-index: 1;
 }
 .hero-bottom-content .tj-brand-slider2 .brand-item a {
-  display: inline-block;
   font-family: 'Lora', serif;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 23px;
+  flex-direction: column;
+  align-items: center;
 }
-
+.hero-bottom-content .tj-brand-slider2 .brand-item a img {
+  width: 45px;
+  margin-bottom: 5px;
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
 .hero_wrapper {
   position: relative;
   z-index: 2;
