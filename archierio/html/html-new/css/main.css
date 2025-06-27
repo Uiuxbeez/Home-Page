@@ -6740,11 +6740,10 @@ START: Service CSS
   position: relative;
   z-index: 1;
   bottom: 10px;
-  max-width: 380px;
+  max-width: 100%;
   width: 100%;
 }
 .service-accordion .tab-content .tabs-wrapper .service-text {
-  position: absolute;
   right: 0;
   bottom: 25px;
   background: var(--tj-color-theme-secondary);
@@ -6756,9 +6755,9 @@ START: Service CSS
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 310px;
+  max-width: 100%;
   width: 100%;
-  padding: 35px 15px 35px 70px;
+  padding: 20px 15px 35px 20px;
 }
 .service-accordion .tab-content .tabs-wrapper .service-text img {
   max-width: 380px;
@@ -6788,9 +6787,11 @@ START: Service CSS
           transform: translateY(-50%);
 }
 .service-accordion .tab-content .tabs-wrapper .service-text .desc {
-  max-width: 200px;
   width: 100%;
   margin-bottom: 10px;
+}
+.m-width-320 {
+  min-width: 320px;
 }
 .service-accordion .tab-content .tabs-wrapper .service-text .desc p {
   line-height: 1.8;
@@ -6836,7 +6837,7 @@ START: Service CSS
     font-size: 20px;
   }
   .service-accordion .tab-content .tabs-wrapper {
-    max-width: 360px;
+    max-width: 100%;
   }
   .service-accordion .tab-content .tabs-wrapper .service-text .service-icon {
     width: 90px;
@@ -7600,17 +7601,17 @@ START: Roll CSS
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tj-roll-style-one .roll-box .slide-roll .roll-box .roll-item .text {
-    font-size: 120px;
+    font-size: 70px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tj-roll-style-one .roll-box .slide-roll .roll-box .roll-item .text {
-    font-size: 100px;
+    font-size: 50px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-roll-style-one .roll-box .slide-roll .roll-box .roll-item .text {
-    font-size: 80px;
+    font-size: 30px;
   }
 }
 .tj-roll-style-one .roll-box .fun-fact-item {
@@ -7756,17 +7757,17 @@ START: Roll CSS
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tj-roll-style-two .roll-box .slide-roll .roll-box .roll-item .text {
-    font-size: 120px;
+    font-size: 70px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tj-roll-style-two .roll-box .slide-roll .roll-box .roll-item .text {
-    font-size: 100px;
+    font-size: 50px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-roll-style-two .roll-box .slide-roll .roll-box .roll-item .text {
-    font-size: 80px;
+    font-size: 30px;
   }
 }
 .tj-roll-style-two .roll-box .fun-fact-item {
@@ -12742,7 +12743,6 @@ START: Apartment CSS
   padding-bottom: 165px;
 }
 .tj-apartment-section .tj-heading-area {
-  max-width: 575px;
   width: 100%;
   margin-bottom: 60px;
 }
