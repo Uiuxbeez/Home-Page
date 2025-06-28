@@ -24,6 +24,22 @@
       <link rel="stylesheet" href="css/backToTop.css">
       <link rel="stylesheet" href="css/meanmenu.css">
       <link rel="stylesheet" href="css/main.css">
+
+       <style>
+ .floating-toggle-btn {
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+      z-index: 1051;
+      border-radius: 0 8px 8px 0;
+    }
+     /* Shift button left when offcanvas is open */
+    .offcanvas.show + .floating-toggle-btn {
+      right: 300px; /* same as offcanvas width */
+    }
+  </style>
+
    </head>
 
    <body>
@@ -120,16 +136,16 @@
             <div class="sidebar-socials">
                <ul>
                   <li>
-                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                     <a href="https://www.facebook.com/archieriodesigns/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                   </li>
                   <li>
-                     <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                     <a href="https://www.instagram.com/archieriodesigns?igshid=1pwyac5nawbw3" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                   </li>
                   <li>
-                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                     <a href="https://www.linkedin.com/company/archieriodesigns" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                   </li>
                   <li>
-                     <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                     <a href="https://www.youtube.com/channel/UCHWj1lsouS4w0byeR7aMb7Q" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                   </li>
                </ul>
             </div>
@@ -144,7 +160,7 @@
             <div class="contact-text">
                <span>Call anytime</span>
                <ul>
-                  <li><a class="link" href="tel:+88235(000)-9630">+ 88235 (000) - 9630</a></li>
+                  <li><a class="link" href="tel:+88235(000)-9630">+91-9080210304</a></li>
                </ul>
             </div>
          </div>
@@ -155,7 +171,7 @@
             <div class="contact-text">
                <span>Send Email</span>
                <ul>
-                  <li><a class="link" href="mailto:info@company.com">info@company.com</a></li>
+                  <li><a class="link" href="mailto:info@company.com">sales@archierio.in</a></li>
                </ul>
             </div>
          </div>
@@ -166,12 +182,12 @@
             <div class="contact-text">
                <span>Visit Office</span>
                <ul>
-                  <li>24 Division, New York</li>
+                  <li>No.427, 23rd Cross, 9th Main Road, 7th Sector, HSR Layout, Bangalore - 560102</li>
                </ul>
             </div>
          </div>
       </div>
-      <div class="side-newsletter">
+      <div class="d-none side-newsletter">
          <h4 class="side-title">Newsletter</h4>
          <div class="newsletter-input">
             <input type="email" id="emailOne" name="email" placeholder="Enter your email" required="">
@@ -246,27 +262,27 @@
             <ul>
                <li>
                   <span><i class="fa-regular fa-phone"></i></span>
-                  <a href="tel:+000(123)85511">+ 000 (123) 855 11</a>
+                  <a href="tel:+000(123)85511">+91-9080210304</a>
                </li>
                <li>
                   <span><i class="fa-regular fa-envelope"></i></span>
                   <a href="mailto:info@company.com
-                  ">info@company.com
+                  ">sales@archierio.in
                   </a>
                </li>
                <li>
                   <span><i class="fa-regular fa-location-dot"></i></span>
-                  7525 14th Avenue NY
+                  No.427, 23rd Cross, 9th Main Road, 7th Sector, HSR Layout, Bangalore - 560102
                </li>
             </ul>
          </div>
       </div>
       <div class="mobile-socials">
          <ul>
-            <li><a href="#">Fb.</a></li>
-            <li><a href="#">Tw.</a></li>
-            <li><a href="#">In.</a></li>
-            <li><a href="#">Be.</a></li>
+            <li><a href="https://www.facebook.com/archieriodesigns/" target="_blank">Fb.</a></li>
+            <li><a href="https://www.instagram.com/archieriodesigns?igshid=1pwyac5nawbw3" target="_blank">Insta.</a></li>
+            <li><a href="https://www.youtube.com/channel/UCHWj1lsouS4w0byeR7aMb7Q" target="_blank">Ytube</a></li>
+            <li><a href="https://www.linkedin.com/company/archieriodesigns" target="_blank">In</a></li>
          </ul>
       </div>
    </div>
@@ -286,11 +302,11 @@
                </div>
                <div class="mainmenu main-mobile-menu d-none d-lg-inline-flex" id="main-menu">
                   <ul>
-                     <li>
+                     <li class="current-menu-item">
                         <a href="index.html">Home</a>
                      </li>
                      <li><a href="about.html">About</a></li>
-                     <li class="current-menu-item"><a href="services.html">Services</a></li>
+                     <li><a href="services.html">Services</a></li>
                      <li><a href="portfolio.html">Portfolio</a></li>
                      <li><a href="blogs.html">Blog</a></li>
                      <li><a href="careers.html">Careers</a></li>
@@ -300,17 +316,17 @@
                <div class="header-right-infos">
                   <div class="header-socials">
                      <ul>
-                        <li><a href="#">Fb.</a></li>
-                        <li><a href="#">Tw.</a></li>
-                        <li><a href="#">In.</a></li>
-                        <li><a href="#">Be.</a></li>
+                        <li><a href="https://www.facebook.com/archieriodesigns/" target="_blank">Fb.</a></li>
+                        <li><a href="https://www.instagram.com/archieriodesigns?igshid=1pwyac5nawbw3" target="_blank">Insta.</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCHWj1lsouS4w0byeR7aMb7Q" target="_blank">Ytube</a></li>
+                        <li><a href="https://www.linkedin.com/company/archieriodesigns" target="_blank">In</a></li>
                      </ul>
                   </div>
                   <div class="sidebar-navbar">
                      <div class="sidebar-text text-end">
                         <ul>
-                           <li><a href="tel:+001248779320">+ 00 124 8779 320</a></li>
-                           <li><a href="mailto:information@gamil.com">information@gamil.com</a></li>
+                           <li><a href="tel:+001248779320">+91-9080210304</a></li>
+                           <li><a href="mailto:information@gamil.com">sales@archierio.in</a></li>
                         </ul>
                      </div>
                      <div class="mobile_bars">
@@ -349,13 +365,11 @@
                </div>
                <div class="mainmenu main-mobile-menu d-none d-lg-inline-flex" id="main-menu">
                   <ul>
-                     <li>
+                     <li class="current-menu-item">
                         <a href="index.html">Home</a>
                      </li>
-                     <li>
-                        <a href="about.html">About</a>
-                      </li>
-                     <li class="current-menu-item"><a href="services.html">Services</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="services.html">Services</a></li>
                      <li><a href="portfolio.html">Portfolio</a></li>
                      <li><a href="blogs.html">Blog</a></li>
                      <li><a href="careers.html">Careers</a></li>
@@ -365,17 +379,17 @@
                <div class="header-right-infos">
                   <div class="header-socials">
                      <ul>
-                        <li><a href="#">Fb.</a></li>
-                        <li><a href="#">Tw.</a></li>
-                        <li><a href="#">In.</a></li>
-                        <li><a href="#">Be.</a></li>
+                        <li><a href="https://www.facebook.com/archieriodesigns/" target="_blank">Fb.</a></li>
+                        <li><a href="https://www.instagram.com/archieriodesigns?igshid=1pwyac5nawbw3" target="_blank">Insta.</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCHWj1lsouS4w0byeR7aMb7Q" target="_blank">Ytube</a></li>
+                        <li><a href="https://www.linkedin.com/company/archieriodesigns" target="_blank">In</a></li>
                      </ul>
                   </div>
                   <div class="sidebar-navbar">
                      <div class="sidebar-text text-end">
                         <ul>
-                           <li><a href="tel:+001248779320">+ 00 124 8779 320</a></li>
-                           <li><a href="mailto:information@gamil.com">information@gmail.com</a></li>
+                           <li><a href="tel:+001248779320">+91-9080210304</a></li>
+                           <li><a href="mailto:information@gamil.com">sales@archierio.in</a></li>
                         </ul>
                      </div>
                      <div class="mobile_bars">
@@ -597,7 +611,7 @@
                      <div class="cta-content-two">
                         <h2 class="title wow fadeInUp" data-wow-delay=".8s">We are Excited to Learn More about your Project</h2>
                         <div class="cta-button d-flex wow fadeInUp" data-wow-delay=".9s">
-                           <a class="tj-primary-btn-five" href="contact.html">Get a Quote</a>
+                           <button id="toggleSidebarBtnBand" class="tj-primary-btn-five">Get a Quote</button>
                         </div>
                      </div>
                   </div>
@@ -623,10 +637,10 @@
                         </div>
                         <div class="media-list">
                            <ul>
-                              <li><a href="#">Facebook</a></li>
-                              <li><a href="#">Instagram</a></li>
-                              <li><a href="#">Twitter</a></li>
-                              <li><a href="#">Linkedin</a></li>
+                              <li><a href="https://www.facebook.com/archieriodesigns/" target="_blank">Facebook</a></li>
+                              <li><a href="https://www.instagram.com/archieriodesigns?igshid=1pwyac5nawbw3" target="_blank">Instagram</a></li>
+                              <li><a href="https://www.youtube.com/channel/UCHWj1lsouS4w0byeR7aMb7Q" target="_blank">Youtube</a></li>
+                              <li><a href="https://www.linkedin.com/company/archieriodesigns" target="_blank">Linkedin</a></li>
                            </ul>
                         </div>
                      </div>
@@ -644,10 +658,10 @@
                         </div>
                         <nav>
                            <ul>
-                              <li><a href="#">About Us</a></li>
-                              <li><a href="#">Blog</a></li>
-                              <li><a href="#">Careers</a></li>
-                              <li><a href="#">Contact</a></li>
+                              <li><a href="about.html">About Us</a></li>
+                              <li><a href="blogs.html">Blog</a></li>
+                              <li><a href="careers.html">Careers</a></li>
+                              <li><a href="contact.html">Contact</a></li>
                            </ul>
                         </nav>
                      </div>
@@ -659,9 +673,9 @@
                         </div>
                         <nav>
                            <ul>
-                              <li><a href="#">Interior</a></li>
-                              <li><a href="#">Exterior</a></li>
-                              <li><a href="#">The FWA</a></li>
+                              <li><a href="services.html">Complete Interior Solutions</a></li>
+                              <li><a href="services.html">Smart and Modernized Home</a></li>
+                              <li><a href="services.html">Stylish Furnishings & Door</a></li>
                            </ul>
                         </nav>
                      </div>
@@ -673,9 +687,10 @@
                         </div>
                         <nav>
                            <ul>
-                              <li><a href="#">Interior</a></li>
-                              <li><a href="#">Exterior</a></li>
-                              <li><a href="#">The FWA</a></li>
+                              <li><a href="portfolio.html">2 BHK</a></li>
+                              <li><a href="portfolio.html">3 BHK</a></li>
+                              <li><a href="portfolio.html">4 BHK</a></li>
+                              <li><a href="portfolio.html">Villas</a></li>
                            </ul>
                         </nav>
                      </div>
@@ -689,17 +704,17 @@
                            <ul>
                               <li>
                                  <span><i class="fa-regular fa-phone"></i></span>
-                                 <a href="tel:+000(123)85511">+ 000 (123) 855 11</a>
+                                 <a href="tel:+000(123)85511">+ 0 90802 10304</a>
                               </li>
                               <li>
                                  <span><i class="fa-regular fa-envelope"></i></span>
                                  <a href="mailto:info@company.com
-                                 ">info@company.com
+                                 ">sales@archierio.in
                                  </a>
                               </li>
                               <li>
                                  <span><i class="fa-regular fa-location-dot"></i></span>
-                                 7525 14th Avenue NY
+                                Bengaluru, Karnataka
                               </li>
                            </ul>
                         </div>
@@ -720,7 +735,6 @@
                            <ul>
                               <li><a href="#">Privacy</a></li>
                               <li><a href="#">Terms & Conditions</a></li>
-                              <li><a href="#">Support</a></li>
                            </ul>
                         </div>
                      </div>
@@ -736,6 +750,70 @@
       <div class="mouseCursor cursor-inner"><span>Drag</span></div>
       <!-- end: Corsor Area -->
 
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header bg-dark text-white">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Sidebar Header</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body p-0">
+      <div class="contact-form-box p-0" data-wow-delay=".5s">
+         <div class="contact-form-one start-0">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="form-input">
+                     <input type="text" id="name" name="name" placeholder="Name" required="">
+                  </div>
+               </div>
+               <div class="col-lg-12">
+                  <div class="form-input">
+                     <input type="email" id="emailTwo" name="email" placeholder="Email" required="">
+                  </div>
+               </div>
+               <div class="col-lg-12">
+                  <div class="form-input">
+                     <input type="tel" id="phone" name="phone" placeholder="Phone" required="">
+                  </div>
+               </div>
+               <div class="col-lg-12">
+                  <div class="form-input">
+                     <div class="tj-nice-select-box">
+                        <div class="tj-select">
+                           <select class="nice-select" style="display: none">
+                              <option value="2">Appartment</option>
+                              <option value="2">Villa</option>
+                           </select>
+                           <div class="nice-select" tabindex="0">
+                              <span class="current">Select BHK</span>
+                              <ul class="list">
+                                 <li data-value="2" class="option selected focus">Select BHK</li>
+                                 <li data-value="2" class="option">1</li>
+                                 <li data-value="2" class="option">2</li>
+                                 <li data-value="2" class="option">3</li>
+                                 <li data-value="2" class="option">4</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-12">
+                  <div class="form-input">
+                     <textarea name="text" id="message" placeholder="Your Budget..."></textarea>
+                  </div>
+               </div>
+               <div class="col-lg-12">
+                  <div class="submit-button">
+                     <button class="tj-primary-btn-five">Get a Free Quote</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+  </div>
+</div>
+
+<!-- Floating Toggle Button -->
+<button class="btn btn-primary floating-toggle-btn">Show</button>
       <!-- JS here -->
       <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
@@ -754,5 +832,26 @@
       <script src="js/wow.min.js"></script>
       <script src="js/main.js"></script>
    
+ <script>
+  const toggleBtn = document.querySelector('.floating-toggle-btn');
+  const offcanvasEl = document.getElementById('offcanvasRight');
+  const offcanvas = new bootstrap.Offcanvas(offcanvasEl);
+
+  toggleBtn.addEventListener('click', () => {
+    if (offcanvasEl.classList.contains('show')) {
+      offcanvas.hide();
+    } else {
+      offcanvas.show();
+    }
+  });
+
+  offcanvasEl.addEventListener('shown.bs.offcanvas', () => {
+    toggleBtn.textContent = 'Hide';
+  });
+
+  offcanvasEl.addEventListener('hidden.bs.offcanvas', () => {
+    toggleBtn.textContent = 'Show';
+  });
+</script>
 
 </body></html>
