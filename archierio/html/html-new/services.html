@@ -29,14 +29,14 @@
  .floating-toggle-btn {
       position: fixed;
       top: 50%;
-      transform: translateY(-50%);
-      right: 0;
+      right: -41px;
       z-index: 1051;
-      border-radius: 0 8px 8px 0;
+      border-radius: 8px 8px 0px 0;
+      transform: rotate(-90deg);
     }
      /* Shift button left when offcanvas is open */
     .offcanvas.show + .floating-toggle-btn {
-      right: 300px; /* same as offcanvas width */
+      right: 389px; /* same as offcanvas width */
     }
   </style>
 
@@ -611,7 +611,7 @@
                      <div class="cta-content-two">
                         <h2 class="title wow fadeInUp" data-wow-delay=".8s">We are Excited to Learn More about your Project</h2>
                         <div class="cta-button d-flex wow fadeInUp" data-wow-delay=".9s">
-                           <button id="toggleSidebarBtnBand" class="tj-primary-btn-five">Get a Quote</button>
+                           <button class="btn btn-primary tj-primary-btn-five" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="simpleSidebar">Get a Quote</button>
                         </div>
                      </div>
                   </div>
@@ -752,7 +752,7 @@
 
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header bg-dark text-white">
-    <h5 class="offcanvas-title" id="offcanvasRightLabel">Sidebar Header</h5>
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Get Free Consultation & Site Visit</h5>
     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body p-0">
@@ -773,14 +773,37 @@
                   <div class="form-input">
                      <input type="tel" id="phone" name="phone" placeholder="Phone" required="">
                   </div>
+               </div><div class="col-lg-12">
+                  <div class="form-input">
+                     <div class="tj-nice-select-box">
+                        <div class="tj-select">
+                           <select class="nice-select" style="display: none">
+                              <option value="2">Select Type</option>
+                              <option value="2">Appartment</option>
+                              <option value="2">Villa</option>
+                           </select>
+                           <div class="nice-select" tabindex="0">
+                              <span class="current">Select Type</span>
+                              <ul class="list">
+                                 <li data-value="2" class="option selected focus">Select Type</li>
+                                 <li data-value="2" class="option">Appartment</li>
+                                 <li data-value="2" class="option">Villa</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
                <div class="col-lg-12">
                   <div class="form-input">
                      <div class="tj-nice-select-box">
                         <div class="tj-select">
                            <select class="nice-select" style="display: none">
-                              <option value="2">Appartment</option>
-                              <option value="2">Villa</option>
+                              <option value="2">Select BHK</option>
+                              <option value="2">1</option>
+                              <option value="2">2</option>
+                              <option value="2">3</option>
+                              <option value="2">4</option>
                            </select>
                            <div class="nice-select" tabindex="0">
                               <span class="current">Select BHK</span>
@@ -803,7 +826,7 @@
                </div>
                <div class="col-lg-12">
                   <div class="submit-button">
-                     <button class="tj-primary-btn-five">Get a Free Quote</button>
+                     <button class="tj-primary-btn-five ">Get a Free Quote</button>
                   </div>
                </div>
             </div>
@@ -813,7 +836,7 @@
 </div>
 
 <!-- Floating Toggle Button -->
-<button class="btn btn-primary floating-toggle-btn">Show</button>
+<button class="btn btn-primary floating-toggle-btn">Get a Quote</button>
       <!-- JS here -->
       <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
@@ -835,10 +858,11 @@
  <script>
   const toggleBtn = document.querySelector('.floating-toggle-btn');
   const offcanvasEl = document.getElementById('offcanvasRight');
+
   const offcanvas = new bootstrap.Offcanvas(offcanvasEl);
 
   toggleBtn.addEventListener('click', () => {
-    if (offcanvasEl.classList.contains('show')) {
+    if (offcanvasEl.classList.contains('Get a Quote')) {
       offcanvas.hide();
     } else {
       offcanvas.show();
@@ -850,8 +874,9 @@
   });
 
   offcanvasEl.addEventListener('hidden.bs.offcanvas', () => {
-    toggleBtn.textContent = 'Show';
+    toggleBtn.textContent = 'Get a Quote';
   });
 </script>
+
 
 </body></html>
