@@ -43,14 +43,14 @@
 /**----------------------------------------
 START: Theme Default CSS
 ----------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
   /**
      @Font-Family Declaration
    */
-  --tj-ff-body: 'DM Sans', sans-serif;
-  --tj-ff-heading: 'Lora', serif;
-  --tj-ff-p: 'DM Sans', sans-serif;
+  --tj-ff-body: 'Montserrat', sans-serif;
+  --tj-ff-heading: 'Montserrat', serif;
+  --tj-ff-p: 'Montserrat', sans-serif;
   --tj-ff-fontawesome: "Font Awesome 6 Pro";
   /**
      @Font-weight Declaration
@@ -12108,7 +12108,7 @@ START: Hero CSS
   word-wrap: break-word;
 }
 .hero-top-content .desc {
-  max-width: 440px;
+  max-width: 500px;
   position: absolute;
   right: 0px;
   top: 35px;
@@ -12136,6 +12136,7 @@ START: Hero CSS
   }
   .hero-top-content .hero-title {
     font-size: 90px;
+    line-height: 104px;
   }
   .hero-top-content .hero-title span {
     max-width: 420px;
