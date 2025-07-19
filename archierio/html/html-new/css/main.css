@@ -2209,11 +2209,6 @@ START: Footer CSS
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   gap: 15px;
   margin-bottom: 20px;
 }
@@ -8261,7 +8256,7 @@ START: Steps CSS
     font-size: 65px;
   }
 }
-.steps-item:hover .steps-icon i {
+.steps-item:hover .steps-icon i, .steps-item:hover .steps-icon img {
   -webkit-transform: rotateY(360deg);
           transform: rotateY(360deg);
 }
@@ -12313,7 +12308,7 @@ START: Hero CSS
 }
 .hero-bottom-content .hero-wrapper .video-wrapper .hero-video .watch_video span {
   color: var(--tj-color-common-white);
-  font-size: 35px;
+  font-size: 28px;
   font-family: var(--tj-ff-heading);
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
